@@ -1,9 +1,65 @@
 body {
-    background-color: E6C229;
+    background-image: url("https://i.pinimg.com/564x/71/72/31/71723199b40c2aeedb71a9dd862951f6.jpg");
+    /* background-color: #FFB90A; */
 }
 
+
+
 h1 {
-    margin-top: 10em;
+    padding:1em;
     font-family: 'Pangolin', cursive;
     text-align: center;
+    font-size: 4em;
+    /* color: #EF6300; */
+    color:#DD0E00;
+}
+
+.container {
+    background-color: #FFE227;
+    padding: 2.5em;
+    margin-top: 3.5em;
+    width: 70%;
+}
+
+.row {
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+.create-form {
+    text-align: center;
+    position: relative;
+    padding:2em;
+    /* display: none; */
+}
+
+.create-form p {
+    margin-top: 1em;
+    font-weight: 600;
+}
+
+.btn {
+   display: inline-block;
+}
+
+ul {
+    font-weight: 600;
+}
+
+input {
+    height: 3em;
+ 
+}
+
+.change-devoured {
+
+    color: gray;
+}
+
+
+#devoured {
+    background-color: azure;
+    color: gray;
+    padding: .5em;
+    list-style: none;
 }
